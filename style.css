@@ -1,0 +1,317 @@
+@import url('/css/fonts.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ol {
+    padding: 0px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    
+    width: 960px;    
+    border-color: white;
+    border-left: .5px;
+    border-right: 2px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-style: solid;
+    margin: auto;
+    height: auto;
+    
+  }
+
+  #container {
+      background-color: lightgrey;
+      height: auto;
+  }
+
+
+  #header {
+      background-image: url("https://chavaughn.com/Sample2//img/header1.jpg");
+      background-color: white;
+      width: 100%;
+      min-height: 150px;
+      max-height: 200px;
+      background-size: 960px 150px;          
+  }
+
+  #header img {    
+      height: auto;    
+  }
+
+
+  #art_by {      
+      background-color: black;
+      float: right;
+      margin-top: 126px;
+      text-align: right;
+      height: auto;
+      color: white;
+      font-size: 9pt;    
+  }
+
+  #art_by p {
+      margin-bottom: 0px;
+  }
+
+  #menu-container {
+      height: 40px;
+      width: 100%;
+      background-color: black;      
+  }
+
+  #menu-container ol li {
+      display: inline-table;            
+      margin-top: 7px;
+      vertical-align: middle;
+      border-radius: 2px;
+      padding: 0 2px 0 2px;
+      
+  }
+
+
+
+  #menu-container ol li:hover {
+      background-color: greenyellow;
+  }
+
+#active-page {
+    background-color: greenyellow;
+}
+
+#static {
+    background-color: lightgray;
+}
+
+  #menu-container {
+      text-align: center;
+          
+      
+  }
+
+  #menu-items {   
+    height: 40px;
+        
+    
+}
+
+
+#trending-news-container {
+    background-color: none;
+    height: fit-content;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#trendtab {
+    background-color: black;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    height: 30px;
+    color: white;
+    width: 130px;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+
+
+    animation: blink-animation 4s steps(25, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+
+
+
+}
+
+
+#news-container {
+    background-color: none;
+    width: 100%;
+    height: 350px;
+    height: fit-content;
+    
+    
+    
+}
+
+
+#video {
+    margin-top: 5px;
+    background-color: lightcoral;
+    height: 300px;
+}
+
+
+
+.storyboard {
+    width: 180px;
+    height: 175px;
+    background-color: black;
+    margin-left: 6px;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 5px;
+    color: black;
+    text-indent: 5px;
+    border-radius: 4px;
+}
+
+#story1 {
+ background-image: url("https://chavaughn.com/Sample2/img/story1.jpg");
+
+ 
+}
+
+#story2 {
+    background-image: url("https://chavaughn.com/Sample2/img/story1.jpg");
+}
+
+
+.storyboard-title {
+    background-color: red;
+    border-radius: 3px;
+}
+
+.storyboard-content {
+    background-color: black;
+    color: white;
+    height: 86%;
+    border-radius: 3px;
+    opacity: .5;
+}
+
+.storyboard p {
+    margin-bottom: 0px;
+ 
+}
+
+
+
+#advertisement-space {
+    background-color: lightskyblue;
+    height: 150px;
+    width: 945px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+
+#adverttab {
+
+    background-color: red;
+   
+    margin-left: 6px;
+    width: 125px;
+    height: fit-content;
+    border-radius: 0 0 4px 4px;
+    
+}
+
+#adverttab p {
+    margin-bottom: 0px;
+}
+
+#media-container {
+    max-height: 400;
+}
+
+#media1 {
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    margin-top: 12px;
+    margin-left: 37px;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+#media1-header {
+    background-color: black;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    top: 300px;
+
+}
+
+
+
+#strain {
+
+    background-color: lightslategray;
+    width: 100%;
+    height: 50px;
+    max-height: 50px;
+    margin-bottom: 0px;
+    display: inline-table;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: auto;
+}
+
+#strain p {
+    margin-top: 15px;
+    /* background-color: coral; */
+    font-family: 'barlow-light';
+    font-weight: 300;
+    color: black;
+}
+
+  .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+  #space {
+    background-color: lightskyblue;
+    height: 150px;
+    width: 945px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.clear2 {
+    clear:right;
+}
+
+.clear {
+
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: auto;
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+
+#video1 {
+    
+    height: 150px;
+    width: 945px;
+    
+      
+    background-color: aqua;
+   
+
+}
